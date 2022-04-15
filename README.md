@@ -13,40 +13,40 @@ We have two sections in our mini-project.
 2.	How we can prevent it from happening
 
 1.	How to know if the website is vulnerable to SQL injections?
-</br>
- ![Picture1](https://user-images.githubusercontent.com/100014146/163600614-59334037-d69d-4039-9d6a-17fc6a98463a.png)
+<br>
+![Picture1](https://user-images.githubusercontent.com/100014146/163600614-59334037-d69d-4039-9d6a-17fc6a98463a.png)
  
- </br>
+ <br>
  
 
 When the user enters the correct user name and password, he is shown the login page.
 
-</br>
+<br>
  
 ![Picture2](https://user-images.githubusercontent.com/100014146/163600705-6b90ab6f-2fbb-4015-970a-c32cbfdb1652.png)
 
-</br>
+<br>
 
 Or else he is shown Invalid user title.
- </br>
+ <br>
  ![Picture3](https://user-images.githubusercontent.com/100014146/163600787-1aa98625-f92e-4df9-9960-66b9283cf32b.png)
 </br>
 
 This is for the normal user. When an attacker visits our website and enters a malicious code to it like ‘  in the user name or password we get this error.
- </br>
+ <br>
  
 ![Picture4](https://user-images.githubusercontent.com/100014146/163600848-ede3ea31-679f-4a87-8e31-3ef7bd3ac1b8.png)
 
-</br>
+<br>
 
 This tells the attacker that there is some kind of error In the system.
 Digging deep into it on entering 1' or '1' = '1
  
- </br>
+ <br>
  
  ![Picture5](https://user-images.githubusercontent.com/100014146/163600932-195e0564-6c7f-4e26-9aa6-b2a4b518040b.png)
  
- </br>
+ <br>
 ![Picture6](https://user-images.githubusercontent.com/100014146/163601017-829c11f9-85ca-4f61-9e5c-408eff443baf.png)
 
 When the attackers enter into the database and perform SQL injection, He gets logged in to the system and gets the rights of the first person in the database which is the ADMIN.
